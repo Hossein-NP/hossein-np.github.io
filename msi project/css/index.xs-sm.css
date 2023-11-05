@@ -1,0 +1,9 @@
+h2{
+  font-size: calc(2vw + 10px);
+}
+.Specifications-product span:nth-child(1){
+  font-size: calc(2vw + 4px);
+}
+.Specifications-product span:nth-child(2){
+  font-size: calc(2vw + 2px);
+}
