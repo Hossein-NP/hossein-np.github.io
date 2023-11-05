@@ -1,0 +1,18 @@
+.container-fluid > .row > div:nth-child(1){
+  order: 100;
+}
+.container-fluid > .row > div:nth-child(2){
+  order: 300;
+}
+.container-fluid > .row > div:nth-child(3){
+  order: 200;
+}
+.container-fluid > .row > div:nth-child(4){
+  order: 400;
+}
+h1{
+  font-size: calc(1vw + 15px);
+}
+p{
+  font-size: calc(0.5vw + 10px);
+}
