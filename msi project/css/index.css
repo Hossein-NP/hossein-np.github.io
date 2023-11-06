@@ -1,10 +1,11 @@
+/* =====================row 3===================== */
 .products-container:hover{
   cursor: pointer;
   background-color: rgb(240, 240, 240);
   transition: 0.5s;
 }
 .products-container:hover > .product-img img{
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: 0.5s;
 }
 .products-container > .product-img img{
@@ -32,4 +33,33 @@
 }
 .service-icons:hover span:nth-child(2){
   text-decoration: underline;
+}
+/* ========================row 6 =========================== */
+.social-link:hover .img-social-parent img{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+.social-link .img-social-parent img{
+  transition: 0.5s;
+}
+.social-link .text-box h3{
+  font-size: 16px;
+}
+.social-link .text-box {
+  font-size: 15px;
+}
+.social-link:hover .text-box{
+  background-color: rgb(202, 202, 202);
+}
+.social-link .text-box  h3{
+  color: rgb(34, 34, 34);
+}
+.social-link .text-box p{
+  color: rgb(34, 34, 34);
+}
+.social-link:hover .text-box h3 , p{
+  color: #fff;
+}
+.social-link:hover .text-box  p{
+  color: #fff;
 }
