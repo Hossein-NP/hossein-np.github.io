@@ -32,7 +32,7 @@
   font-weight: 400;
 }
 .service-icons:hover span:nth-child(2){
-  text-decoration: underline;
+  border-bottom: 1px solid rgb(20, 20, 20);
 }
 /* ========================row 6 =========================== */
 .social-link:hover .img-social-parent img{
@@ -43,10 +43,7 @@
   transition: 0.5s;
 }
 .social-link .text-box h3{
-  font-size: 16px;
-}
-.social-link .text-box {
-  font-size: 15px;
+  font-size: 14px;
 }
 .social-link:hover .text-box{
   background-color: rgb(202, 202, 202);
@@ -56,8 +53,9 @@
 }
 .social-link .text-box p{
   color: rgb(34, 34, 34);
+  font-size: 12px;
 }
-.social-link:hover .text-box h3 , p{
+.social-link:hover .text-box h3{
   color: #fff;
 }
 .social-link:hover .text-box  p{

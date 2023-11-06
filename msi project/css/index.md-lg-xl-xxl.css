@@ -14,3 +14,10 @@ h2{
   font-weight: 400;
 }
 /* =======================row 6====================== */
+.social-link .text-box {
+  top: -67px;
+  background-color: rgb(202, 202, 202 , 0.5);
+}
+.social-link:hover .text-box{
+  background-color: rgba(138, 137, 137, 0.5);
+}
