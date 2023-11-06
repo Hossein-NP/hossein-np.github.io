@@ -1,0 +1,9 @@
+h2{
+  font-size: calc(1.5vw + 5px);
+}
+.Specifications-product h3{
+  font-size: 15px;
+}
+.Specifications-product span{
+  font-size: 14px;
+}
