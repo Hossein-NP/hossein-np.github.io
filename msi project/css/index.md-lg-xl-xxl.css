@@ -10,13 +10,13 @@ h2{
 }
 /* ======================row 5=================== */
 .service-icons span:nth-child(2){
-  font-size: 11px;
+  font-size: calc(1vw + 0.9px);
   font-weight: 400;
 }
 /* =======================row 6====================== */
 .social-link .text-box {
   top: -67px;
-  background-color: rgb(202, 202, 202 , 0.5);
+  background-color: rgba(223, 223, 223, 0.5);
 }
 .social-link:hover .text-box{
   background-color: rgba(138, 137, 137, 0.5);
