@@ -14,7 +14,8 @@
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" media="(max-width:767px)" href="css/index.xs-sm.css">
-  <link rel="stylesheet" media="(min-width:768px)" href="css/index.md-lg-xl-xxl.css">
+  <link rel="stylesheet" media="(min-width:1399px)" href="css/index.md-lg-xl.css">
+  <link rel="stylesheet" media="(min-width:1399px)" href="css/index.xxl.css">
 </head>
 <body>
   <!-- MSI TEMPLATE -->
@@ -22,8 +23,61 @@
 
     <!--row 1 >> website navigation -->
     <div class="row my-3"></div>
-    <!--row 2 >> website header -->
-    <div class="row my-3"></div>
+    <!--row 2 >> carousel header -->
+    <div class="row my-3">
+      <div class="col-12 px-0">
+        <!-- carousel slideshow -->
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active"  data-bs-interval="4000">
+              <picture>
+                <source media="(min-width:768px)" srcset="images/headerimagesminwidth768/avatar.jpeg">
+                <img src="images/headerimages575767/rtx.jpeg" class="d-block w-100" alt="...">
+              </picture>
+            </div>
+            <div class="carousel-item"  data-bs-interval="4000">
+              <picture>
+                <source media="(min-width:768px)" srcset="images/headerimagesminwidth768/case.jpeg">
+                <img src="images/headerimages575767/laptop.jpeg" class="d-block w-100" alt="...">
+              </picture>
+            </div>
+            <div class="carousel-item"  data-bs-interval="4000">
+              <picture>
+                <source media="(min-width:768px)" srcset="images/headerimagesminwidth768/laptop.jpeg">
+                <img src="images/headerimages575767/04.jpeg" class="d-block w-100" alt="...">
+              </picture>
+            </div>
+            <div class="carousel-item"  data-bs-interval="4000">
+              <picture>
+                <source media="(min-width:768px)" srcset="images/headerimagesminwidth768/monster.jpeg">
+                <img src="images/headerimages575767/totalwar.jpeg" class="d-block w-100" alt="...">
+              </picture>
+            </div>
+            <div class="carousel-item"  data-bs-interval="4000">
+              <picture>
+                <source media="(min-width:768px)" srcset="images/headerimagesminwidth768/server.jpeg">
+                <img src="images/headerimages575767/geforce.jpeg" class="d-block w-100" alt="...">
+              </picture>
+            </div>
+          </div>
+          <button class="carousel-control-prev d-none d-xxl-block d-xxl-flex justify-content-xxl-start" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon carousel-btn-bg" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next d-none d-xxl-block d-xxl-flex justify-content-xxl-end" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon carousel-btn-bg" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
     <!-- row 3 >> Innovations product section -->
     <div class="row my-3">
       <div class="col-12 order-first">

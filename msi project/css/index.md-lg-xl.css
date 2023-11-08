@@ -1,3 +1,11 @@
+/* ======================row 2 ===================== */
+.carousel-btn-bg {
+  background-color: rgba(128, 128, 128, 0.671);
+  width: 45px;
+  height: 75px;
+}
+
+
 /* ====================row 3=================== */
 h2{
   font-size: calc(1.5vw + 5px);
