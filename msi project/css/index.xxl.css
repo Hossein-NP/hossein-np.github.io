@@ -2,11 +2,3 @@
 h2{
   font-size: 40px;
 }
-
-.btn-opacity-hov{
-  display: none;
-}
-.btn-opacity-hov:hover{
-  display: block;
-  transition: 0.3s;
-}
