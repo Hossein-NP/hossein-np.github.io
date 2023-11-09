@@ -10,12 +10,6 @@
 h2{
   font-size: calc(1.5vw + 5px);
 }
-.Specifications-product h3{
-  font-size: 15px;
-}
-.Specifications-product span{
-  font-size: 14px;
-}
 /* ======================row 5=================== */
 .service-icons span:nth-child(2){
   font-size: calc(1vw + 1.5px);
