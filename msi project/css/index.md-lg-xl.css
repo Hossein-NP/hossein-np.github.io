@@ -12,10 +12,6 @@ h2{
   font-size: 40px;
 }
 /* ======================row 5=================== */
-.service-icons span:nth-child(2){
-  font-size: calc(1vw + 1.5px);
-  font-weight: 400;
-}
 /* =======================row 6====================== */
 .social-link .text-box {
   top: -72px;
