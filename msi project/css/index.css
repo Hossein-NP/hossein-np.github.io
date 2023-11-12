@@ -1,3 +1,20 @@
+/* ==============================row 2===================== */
+/* style for carousel indicator */
+.ind-border-pill{
+  /* border-radius: 0.75rem; */ 
+  /* dont worked */
+  /* width: 20px;
+  height: 5px; 
+  display: inline-block;
+  border-radius: 50px; */
+}
+/* style for carousel bg controler */
+.carousel-btn-bg{
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: rgba(109, 101, 101, 0.705);
+  border-radius: 5px;
+}
 
 /* ==========================row 3===================== */
 
@@ -57,11 +74,6 @@
 	font-variant: normal;
 	text-transform: none;
 }
-.carousel-btn-bg{
-  width: 40px;
-  height: 55px;
-  background-color: #dbdbdbce;
-}
 /* ========================= row 5 =================== */
 .service-icons span:nth-child(2){
   font-size: 15px;
@@ -105,9 +117,4 @@
   transform: rotate(135deg);
   left: 45px;
   bottom: 11px;
-}
-
-svg{
-  left: 100%;
-  top: 50%;
 }
