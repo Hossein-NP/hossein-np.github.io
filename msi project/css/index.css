@@ -40,14 +40,22 @@
   font-weight: bolder;
   text-transform: capitalize;
   font-size: 18px;
-  font-style: normal;
+  font-family: 'latobold';
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
 }
 
 .Specifications-product span{
   text-transform: capitalize;
   text-align: center;
   font-size: 16px;
-  font-style: normal;
+  font-family: 'latoregular';
+	font-style: normal;
+	font-weight: 300;
+	font-variant: normal;
+	text-transform: none;
 }
 .carousel-btn-bg{
   width: 40px;
