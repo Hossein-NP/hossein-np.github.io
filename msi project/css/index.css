@@ -39,6 +39,11 @@ div[class="linkIcon"]{
   background-color: rgb(240, 240, 240);
   transition: 0.5s;
 }
+h2{
+  font-family: 'latobold';
+  font-weight: 900;
+  font-style: normal;
+}
 .products-container:hover > .product-img img{
   transform: scale(1.05);
   transition: 0.5s;
@@ -73,7 +78,21 @@ div[class="linkIcon"]{
 	font-variant: normal;
 	text-transform: none;
 }
-/* ========================= row 5 =================== */
+/* =============================row 5===================== */
+/* style for container bg */
+.container-row5{
+  background-color: #f5f5f5ea;
+}
+.heading-parent h2{
+  font-family: 'latobold';
+    font-weight: normal;
+    font-style: normal;
+}
+.carousel-txt-section .carousel-text-box div h3,p{
+  font-family: 'lato';
+  font-style: normal;
+}
+/* ========================= row 6 =================== */
 .service-icons span:nth-child(2){
   font-size: 15px;
   font-weight: 400;
@@ -81,16 +100,13 @@ div[class="linkIcon"]{
 .service-icons:hover span:nth-child(2){
   border-bottom: 1px solid rgb(20, 20, 20);
 }
-/* ========================row 6 =========================== */
+/* ========================row 7 =========================== */
 .social-link:hover .img-social-parent img{
   transform: scale(1.05);
   transition: 0.5s;
 }
 .social-link .img-social-parent img{
   transition: 0.5s;
-}
-.social-link .text-box h3{
-  font-size: 16px;
 }
 .social-link:hover .text-box{
   background-color: rgb(202, 202, 202);
@@ -100,7 +116,7 @@ div[class="linkIcon"]{
 }
 .social-link .text-box p{
   color: rgb(34, 34, 34);
-  font-size: 14px;
+  font-size: 16px;
 }
 .social-link:hover .text-box h3{
   color: #fff;

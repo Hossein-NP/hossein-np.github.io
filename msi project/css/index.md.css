@@ -1,10 +1,24 @@
 /* ==========================row 3 ====================== */
 /* style for icon names */
 [class*="msi-icon-"] {
-  font-size: calc(1vw + 7px);
+  font-size: calc(1vw + 5px);
 }
 
 /* ===================row 4 ===================== */
+
 h2{
-  font-size: 40px;
+  font-size: calc(1vw + 14.01px);
+}
+
+/* ============================row 5================== */
+.carousel-txt-section .carousel-text-box div h3{
+  font-size: calc(1vw + 7.09px);
+}
+.carousel-txt-section .carousel-text-box div p{
+  font-size: calc(1vw + 6.09px);
+}
+
+/* ====================row 7 ================== */
+.social-link .text-box h3{
+  font-size: calc(1vw + 8.09px);
 }

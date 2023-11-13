@@ -9,16 +9,27 @@
 
 /* ====================row 4=================== */
 h2{
-  font-size: 40px;
+  font-size: calc(1vw + 18.25px);
 }
 
-/* ======================row 5=================== */
+/* ============================row 5================== */
+.carousel-txt-section .carousel-text-box div h3{
+  font-size: calc(1vw + 11.25px);
+}
+.carousel-txt-section .carousel-text-box div p{
+  font-size: calc(1vw + 10.25px);
+}
 
-/* =======================row 6====================== */
+/* ======================row 6=================== */
+
+/* =======================row 7====================== */
 .social-link .text-box {
-  top: -72px;
+  top: -86px;
   background-color: rgba(223, 223, 223, 0.5);
 }
 .social-link:hover .text-box{
   background-color: rgba(138, 137, 137, 0.5);
+}
+.social-link .text-box h3{
+  font-size: calc(1vw + 12.25px);
 }

@@ -7,6 +7,18 @@
 /* ===============row 4=================== */
 
 h2{
-  font-size: 24px;
+  font-size: calc(1vw + 16.33px);
 }
 
+/* ============================row 5================== */
+.carousel-txt-section .carousel-text-box div h3{
+  font-size: calc(1vw + 9.33px);
+}
+.carousel-txt-section .carousel-text-box div p{
+  font-size: calc(1vw + 8.33px);
+}
+
+/* ====================row 7 ================== */
+.social-link .text-box h3{
+  font-size: calc(1vw + 10.33px);
+}
