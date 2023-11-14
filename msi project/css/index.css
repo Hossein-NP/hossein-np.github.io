@@ -92,6 +92,24 @@ h2{
   font-family: 'lato';
   font-style: normal;
 }
+.card-text-body p{
+  font-size: 15px;
+}
+.card-body{
+  cursor: pointer;
+  transition: 0.5s;
+}
+.card-body:hover{
+  background-color: rgb(240, 240, 240);
+  transition: 0.5s;
+}
+.card-body .card-img img{
+  transition: 0.5s;
+}
+.card-body:hover .card-img img{
+  transform: scale(1.05);
+  transition: 0.5s;
+}
 /* ========================= row 6 =================== */
 .service-icons span:nth-child(2){
   font-size: 15px;
