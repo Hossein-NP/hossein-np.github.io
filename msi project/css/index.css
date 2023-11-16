@@ -1,3 +1,12 @@
+/* =================================row 1 ====================== */
+/* hover for navbar icons */
+.navbar-icons-parent .navbar-icons li a span{
+  color: rgb(90, 90, 90);
+}
+.navbar-icons-parent .navbar-icons li a span:hover{
+    color: rgb(21, 21, 21);
+}
+
 /* ==============================row 2===================== */
 /* style for carousel indicator */
 .ind-border-pill{
