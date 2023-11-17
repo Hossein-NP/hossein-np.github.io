@@ -32,6 +32,9 @@
   color: rgb(21, 21, 21);
 
 }
+.products-type-name{
+  font-family: 'latolight';
+}
 /* ==============================row 2===================== */
 /* style for carousel indicator */
 .ind-border-pill{
