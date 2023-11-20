@@ -180,13 +180,21 @@ h2{
   color: #fff;
 }
 .setting{
-  width: 0;
-  height: 0;
-  border: 50px solid rgb(31, 31, 31,0);
-  border-left: 50px solid rgba(31, 31, 31,0.8);
+  width: 150px;
+  height: 150px;
+  background-color: rgba(31, 31, 31,0.8);
   transform: rotate(135deg);
-  left: 45px;
-  bottom: 11px;
+  left: -7%;
+  bottom: -9%;
+}
+.setting-icon i{
+  display: block;
+  font-size: 22px;
+   color: white;
+  position: absolute;
+  top: 50%;
+  left: 8%;
+  transform: translatey(-50%);
 }
 /* ========================row 8 =========================== */
 .footer-button{
@@ -223,4 +231,74 @@ table thead tr th{
   color: rgb(90, 90, 90);
   font-family: 'latoblack';
   font-size: 17px;
+}
+.offcanvas-header > .offcanvas-title {
+  font-family: 'latoblack';
+  font-size: 17px;
+
+}
+.offcanvas-body div .off-textbox{
+  color: rgb(90, 90, 90);
+  font-family: 'latolight';
+  font-size: 16px;
+}
+.off-panel > h4{
+  font-family: 'latoblack';
+  font-size: 17px;
+}
+.off-panel > p{
+  color: rgb(90, 90, 90);
+font-family: 'latolight';
+font-size: 16px;
+}
+/* ================================= */
+/* offcanvas panel button */
+label{
+  width: 90px;
+  height: 30px;
+  background-color: rgb(34, 34, 34);
+  cursor: pointer;
+  margin-left: 70%;
+}
+label::after{
+  content: "on";
+  display: block;
+  position: absolute;
+  color: rgb(207, 207, 207);
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10%;
+  font-size:15px;
+  z-index: 1;
+}
+label::before{
+  content: "off";
+  display: block;
+  position: absolute;
+  color: rgb(207, 207, 207);
+  left: 65%;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size:15px;
+  z-index: 1;
+}
+label:focus{
+  border: 1px solid skyblue;
+}
+label .label-button{
+  width: 40px;
+  height: 25px;
+  background-color: rgb(90, 90, 90);
+  z-index: 2;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  transition: 0.3s;
+
+}
+input:checked ~ label > .label-button{
+
+  left: 52%;
+  transition: 0.3s;
+
 }
