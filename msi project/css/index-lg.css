@@ -16,3 +16,6 @@ h2{
 .carousel-txt-section .carousel-text-box div p{
   font-size: calc(1vw + 4.01px);
 }
+.service > .service-items a{
+  font-size: 14px;
+}

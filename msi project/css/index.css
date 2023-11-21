@@ -38,6 +38,20 @@
 .nav-item-mdup{
   cursor: pointer;
 }
+.product-submenu-container{
+  width: 100vw;
+  background-color: rgb(121, 121, 121);
+  position: absolute;
+  top: 147%;
+  left: -180px;
+  opacity: 0;
+  visibility: hidden;
+}
+.product-link:hover ~ .product-submenu-container{
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s;
+}
 /* ==============================row 2===================== */
 /* style for carousel indicator */
 .ind-border-pill{

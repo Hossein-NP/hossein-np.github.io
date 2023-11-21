@@ -22,3 +22,6 @@ h2{
 .social-link .text-box h3{
   font-size: calc(1vw + 10.33px);
 }
+.service > .service-items a{
+  font-size: 14px;
+}
