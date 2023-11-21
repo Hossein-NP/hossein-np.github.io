@@ -183,9 +183,9 @@ h2{
   width: 150px;
   height: 150px;
   background-color: rgba(31, 31, 31,0.8);
-  transform: rotate(135deg);
-  left: -7%;
-  bottom: -9%;
+  transform: rotate(135deg) translateX(50%);
+  left: -2%;
+  bottom: -3%;
 }
 .setting-icon i{
   display: block;
@@ -193,7 +193,7 @@ h2{
    color: white;
   position: absolute;
   top: 50%;
-  left: 8%;
+  left: 2%;
   transform: translatey(-50%);
 }
 /* ========================row 8 =========================== */
