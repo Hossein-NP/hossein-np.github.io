@@ -27,12 +27,12 @@
 </head>
 <body>
   <!-- MSI TEMPLATE -->
-  <div class="container-fluid">
+  <div class="container-fluid position-relative">
 
     <!--row 1 >> website navigation -->
     <div class="row position-relative">
       <div class="container px-0 position-relative">
-        <nav class="navbar navbar-expand-lg  bg-body-tertiary position-absolute z-2 w-100 navbar-nav-scroll d-lg-none">
+        <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary position-absolute z-2 w-100 navbar-nav-scroll d-lg-none">
           <button class="navbar-toggler border-0 ms-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -419,7 +419,50 @@
           </div>
         </div>
         </nav>
-
+        <div class="navbar-up-md d-none d-lg-block">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="brand-company d-flex mx-auto">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" width="82px" height="54px" class="d-inline-block align-text-middle"  alt="brand-logo"></a>
+              </div>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item nav-item-mdup h-100">
+                    <a class="nav-link " aria-current="page" href="#">store</a>
+                  </li>
+                  <li class="nav-item nav-item-mdup">
+                    <a class="nav-link" href="#">products</a>
+                  </li>
+                  <li class="nav-item nav-item-mdup">
+                    <a class="nav-link">AIoT Solutions</a>
+                  </li>
+                  <li class="nav-item nav-item-mdup">
+                    <a class="nav-link">What's New</a>
+                  </li>
+                  <li class="nav-item nav-item-mdup">
+                    <a class="nav-link">Community</a>
+                  </li>
+                  <li class="nav-item nav-item-mdup">
+                    <a class="nav-link">MSI for Business</a>
+                  </li>
+                  <li class="nav-item nav-item-mdup">
+                    <a class="nav-link">Service</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="navbar-icons-parent d-flex align-items-center me-2">
+                <ul class="navbar-icons list-unstyled d-flex" style="margin-bottom: 0;">
+                  <li class="me-1"><a href="" class="text-decoration-none fs-5"><span class="icon-msi-user"></span></a></li>
+                  <li class="mx-1 d-none d-lg-block"><a href="" class="text-decoration-none fs-5"><span class="icon-msi-wtb"></span></a></li>
+                  <li class="ms-1"><a href="" class="text-decoration-none fs-5"><span class="icon-msi-search"></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
       </div>
     </div>
     <!--row 2 >> carousel header -->
@@ -1068,8 +1111,8 @@
       <div class="col-12 off-panel border border-top-1 border-bottom-0 border-dark border-start-0 border-end-0 py-2 ">
         <h4 class=" mt-1 mb-3">Google Analytics
           <input type="checkbox" id="button1" class="d-none">
-          <label for="button1" class="rounded-pill position-relative z-0 px-1">
-            <div class="label-button rounded-pill position-relative"></div>
+          <label for="button1" class="rounded-pill position-relative z-0 px-1 py-1">
+            <div class="label-button rounded-pill position-absolute"></div>
           </label>
         </h4>
         <p>Analytical cookies help us to improve our website by collecting and reporting information on its usage.</p>

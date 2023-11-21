@@ -15,11 +15,11 @@
   font-family: 'latoblack';
   font-size: 17px;
 }
-.collapse .navbar-nav > li{
+.collapse .navbar-nav > .icon-ctrl{
   position: relative;
   margin: 15px 0;
 }
-.collapse .navbar-nav > li::before {
+.collapse .navbar-nav > .icon-ctrl::before {
   content: "\ea50";
   position:absolute;
   left: 93%;
@@ -184,8 +184,8 @@ h2{
   height: 150px;
   background-color: rgba(31, 31, 31,0.8);
   transform: rotate(135deg) translateX(50%);
-  left: -2%;
-  bottom: -3%;
+  left: -22px;
+  bottom: -22px;
 }
 .setting-icon i{
   display: block;
@@ -244,12 +244,12 @@ table thead tr th{
 }
 .off-panel > h4{
   font-family: 'latoblack';
-  font-size: 17px;
+  font-size: 16px;
 }
 .off-panel > p{
   color: rgb(90, 90, 90);
 font-family: 'latolight';
-font-size: 16px;
+font-size: 15px;
 }
 /* ================================= */
 /* offcanvas panel button */
@@ -259,6 +259,7 @@ label{
   background-color: rgb(34, 34, 34);
   cursor: pointer;
   margin-left: 70%;
+  margin-top: -5%;
 }
 label::after{
   content: "on";
