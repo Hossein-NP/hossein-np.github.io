@@ -35,6 +35,9 @@
 .products-type-name{
   font-family: 'latolight';
 }
+.nav-item-mdup{
+  cursor: pointer;
+}
 /* ==============================row 2===================== */
 /* style for carousel indicator */
 .ind-border-pill{
