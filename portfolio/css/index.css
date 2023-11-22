@@ -70,3 +70,22 @@ header > .heading-slider span::after{
 header > .heading-slider .sociallinks{
 
 }
+header > .heading-slider .sociallinks .socialicons li{
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  border: 1px solid #8d57e7;
+  background-color: transparent;
+  transition: 0.3s;
+  cursor: pointer;
+}
+header > .heading-slider .sociallinks .socialicons li:hover{
+  background: rgb(79,137,235);
+  background: linear-gradient(180deg, rgba(79,137,235,1) 0%, rgba(222,68,187,1) 100%);
+  transition: 0.3s;
+
+}
+header > .heading-slider .sociallinks .socialicons li a i{
+  font-size: 15px;
+  color: #ffffff;
+}
