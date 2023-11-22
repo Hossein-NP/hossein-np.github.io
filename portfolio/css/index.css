@@ -39,24 +39,24 @@ header >.head-man-img .head-person-img{
   left: 0;
 }
             /* header slider */
-header > .heading-slider{
-  top: 177px;
+header >.heading-slider-1{
+  top: 160px;
 }
-header > .heading-slider h3{
+header >.heading-slider-1 .heading-slider h3{
   font-size: 30px;
   font-family: 'mulibold';
   font-weight: 500;
   font-style: normal;
   color: #ffffff;
 }
-header > .heading-slider span{
+header >.heading-slider-1 .heading-slider span{
   font-size: 16px;
   font-family: 'muliregular';
   font-weight: 300;
   font-style: normal;
   color: #ffffff;
 }
-header > .heading-slider span::after{
+header >.heading-slider-1 .heading-slider span::after{
   content: "";
   width: 50px;
   height: 2px;
@@ -67,10 +67,10 @@ header > .heading-slider span::after{
   top: 12px;
 }
           /* social icons in head */
-header > .heading-slider .sociallinks{
+ header >.heading-slider-1 .heading-slider .sociallinks{
 
 }
-header > .heading-slider .sociallinks .socialicons li{
+header >.heading-slider-1 .heading-slider .sociallinks .socialicons li{
   width: 40px;
   height: 40px;
   line-height: 38px;
@@ -79,13 +79,13 @@ header > .heading-slider .sociallinks .socialicons li{
   transition: 0.3s;
   cursor: pointer;
 }
-header > .heading-slider .sociallinks .socialicons li:hover{
+header >.heading-slider-1 .heading-slider .sociallinks .socialicons li:hover{
   background: rgb(79,137,235);
   background: linear-gradient(180deg, rgba(79,137,235,1) 0%, rgba(222,68,187,1) 100%);
   transition: 0.3s;
 
 }
-header > .heading-slider .sociallinks .socialicons li a i{
+header >.heading-slider-1 .heading-slider .sociallinks .socialicons li a i{
   font-size: 15px;
   color: #ffffff;
 }
