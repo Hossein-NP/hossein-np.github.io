@@ -1,6 +1,11 @@
 /* =====================row 1 ===================== */
                         /* header section */
-
+ header >.head-man-img .head-person-img{
+  width: 340px;
+  height: 340px;
+  top: 172px;
+  left: 0;
+}                        
 header > .heading-slider{
   top: 190px;
 }
@@ -21,3 +26,25 @@ header >.heading-slider-1 .heading-slider span::after{
   left: -60px;
   top: 23px;
 }
+              /* hover for navbar items */
+  .navbar-nav > li {
+    transition: 0.3s;
+  }
+   .navbar-nav > li:hover{
+    border-radius: 6px;
+    background: #ccc;
+  }
+  .navbar-nav > li:hover a{
+    color: #222;
+              
+  }
+              
+                      /* style for dropmenu navbar */
+   .navbar-nav > li .dropdown-menu{
+    background-color: #4c4c4c;
+    border: none;
+  }
+  .navbar-nav > li .dropdown-menu{
+    background: #ccc;
+              
+  }

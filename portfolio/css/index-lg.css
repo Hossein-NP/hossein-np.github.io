@@ -1,0 +1,8 @@
+/* =====================row 1 ===================== */
+                        /* header section */
+ header > .header-nav-parent{
+  background-color: transparent;
+}
+header > .header-nav-parent .web-nav{
+  background-color: transparent;
+}
