@@ -32,23 +32,27 @@ header > .header-nav-parent .web-nav > .container-fluid > button span{
 
 }
                   /* for navbar items */
-.navbar-nav > li a{
+.navbar-nav > li a , .search-nav-btn{
   font-family: 'muliregular';
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
   color: #ffffff;
 }
-
-/* .navbar-nav > li .dropdown-menu li a{
-  background: #9e9d9d;
-} */
+.search-nav-btn{
+  background-color: #d465ef;
+  
+}
              /* header man picture */
 header >.head-man-img .head-person-img{
   width: 310px;
   height: 310px;
   top: 172px;
   left: 0;
+}
+header >.head-man-img .transparent-bg{
+  /* top: 717px;
+  left: 855px; */
 }
             /* header slider */
 header >.heading-slider-1{
