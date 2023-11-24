@@ -1,24 +1,20 @@
 /* =====================row 1 ===================== */
-                        /* header section */
-                    /* hover for navbar items */
+/* header section */
+/* hover for navbar items */
 .navbar-nav > li {
-   transition: 0.3s;
+  transition: 0.3s;
 }
-.navbar-nav > li:hover{
+.navbar-nav > li:hover {
   border-radius: 6px;
   background: #ccc;
 }
-.navbar-nav > li:hover a{
+.navbar-nav > li:hover a {
   color: #222;
-              
 }
-              
-                      /* style for dropmenu navbar */
-.navbar-nav > li .dropdown-menu{
-  background-color: #4c4c4c;
-  border: none;
-}
-.navbar-nav > li .dropdown-menu{
+
+/* style for dropmenu navbar */
+
+.navbar-nav > li .dropdown-menu {
   background: #ccc;
-              
+  border: none;
 }

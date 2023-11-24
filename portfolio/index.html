@@ -1,124 +1,204 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Melan</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
-  rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
-  integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-  </script>
-  <!-- icons cdn -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="css/index.css">
-  <!-- fonts -->
-  <link rel="stylesheet" href="fonts/stylesheet.css">
-  <!-- media query -->
-  <link rel="stylesheet" media="(max-width:575px)" href="css/index-xs.css">
-  <link rel="stylesheet" media="(min-width:576px) and (max-width:767px)" href="css/index-sm.css">
-  <link rel="stylesheet" media="(min-width:768px) and (max-width:991px)" href="css/index-md.css">
-  <link rel="stylesheet" media="(min-width:992px) and (max-width:1199px)" href="css/index-lg.css">
-  <link rel="stylesheet" media="(min-width:1200px) and (max-width:1399px)" href="css/index-xl.css">
-  <link rel="stylesheet" media="(min-width:1400px)" href="css/index-2xl.css">
-</head>
-<body>
-  
-  <!-- website template -->
-  <div class="container-fluid px-0">
-    <!-- row 1 >> header & navbar -->
-    <div class="row mx-0">
-      <!-- header container -->
-      <div class="col-12 px-0">
-        <header class="overflow-hidden position-relative">
-          <!-- navbar parent -->
-          <div class="header-nav-parent w-100 position-absolute z-3">
-             <!-- brand place -->
-            <nav class="navbar brand-place mx-md-5 d-lg-none" style="height: 60px;">
-              <div class="container-fluid px-md-0">
-                <a class="navbar-brand text-capitalize" href="#"><img src="pictures/headerpicture/logo.png.webp" alt=""></a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Melan</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+    <!-- icons cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- fonts -->
+    <link rel="stylesheet" href="fonts/stylesheet.css" />
+    <!-- media query -->
+    <link rel="stylesheet" media="(max-width:575px)" href="css/index-xs.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width:576px) and (max-width:767px)"
+      href="css/index-sm.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width:768px) and (max-width:991px)"
+      href="css/index-md.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width:992px) and (max-width:1199px)"
+      href="css/index-lg.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width:1200px) and (max-width:1399px)"
+      href="css/index-xl.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width:1400px)"
+      href="css/index-2xl.css" />
+  </head>
+  <body>
+    <!-- website template -->
+    <div class="container-fluid px-0">
+      <!-- row 1 >> header & navbar -->
+      <div class="row mx-0">
+        <!-- header container -->
+        <div class="col-12 px-0">
+          <header class="overflow-hidden position-relative">
+            <!-- navbar parent -->
+            <div class="header-nav-parent w-100 position-absolute z-3">
+              <!-- brand place -->
+              <nav
+                class="navbar brand-place mx-md-5 d-lg-none"
+                style="height: 60px">
+                <div class="container-fluid px-md-0">
+                  <a class="navbar-brand text-capitalize" href="#"
+                    ><img src="pictures/headerpicture/logo.png.webp" alt=""
+                  /></a>
+                </div>
+              </nav>
+              <!-- website navbar -->
+              <nav
+                class="navbar navbar-expand-lg web-nav mx-md-5 mx-lg-0 mb-md-2 mt-lg-3 py-2"
+                data-bs-theme="dark">
+                <div class="container-fluid">
+                  <a
+                    class="navbar-brand text-capitalize d-none d-lg-inline"
+                    href="#"
+                    ><img src="pictures/headerpicture/logo.png.webp" alt=""
+                  /></a>
+                  <button
+                    class="navbar-toggler d-flex flex-row-reverse d-lg-none align-items-center ms-auto"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="bi bi-list"></i>
+                    <span class="text-uppercase me-1">menu</span>
+                  </button>
+                  <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mx-lg-auto mb-2 mb-lg-0">
+                      <li class="nav-item mt-2 mt-lg-0 mx-lg-1 ps-2 py-0">
+                        <a class="nav-link" aria-current="page" href="#"
+                          >Home</a
+                        >
+                      </li>
+                      <li class="nav-item my-1 my-lg-0 mx-lg-1 ps-2 py-0">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item my-1 my-lg-0 mx-lg-1 ps-2 py-0">
+                        <a class="nav-link" href="#">Services</a>
+                      </li>
+                      <li
+                        class="nav-item dropdown my-1 mx-lg-1 my-lg-0 ps-2 py-0">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          blog
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">blog</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">single-blog</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li
+                        class="nav-item dropdown my-1 mx-lg-1 my-lg-0 ps-2 py-0">
+                        <a
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false">
+                          pages
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#">Portfolio</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Elements</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="nav-item my-1 my-lg-0 mx-lg-1 ps-2 py-0">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                    <form
+                      class="d-none d-lg-flex search-nav-btn px-1 py-1"
+                      role="search">
+                      <button type="button" class="btn">Contact Me</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <!-- header person img -->
+            <div class="head-man-img w-100 h-100 position-relative z-0">
+              <div class="head-person-img position-absolute">
+                <img
+                  src="pictures/headerpicture/man.png.webp"
+                  class="img-fluid"
+                  alt="" />
               </div>
-            </nav>
-            <!-- website navbar -->
-            <nav class="navbar navbar-expand-lg web-nav mx-md-5 mx-lg-0 mb-md-2 mt-lg-3 py-2"  data-bs-theme="dark">
-              <div class="container-fluid">
-                <a class="navbar-brand text-capitalize d-none d-lg-inline" href="#"><img src="pictures/headerpicture/logo.png.webp" alt=""></a>
-                <button class="navbar-toggler d-flex flex-row-reverse d-lg-none align-items-center ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <i class="bi bi-list"></i>
-                  <span class="text-uppercase me-1">menu</span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mx-lg-auto mb-2 mb-lg-0">
-                    <li class="nav-item mt-2 mt-lg-0  py-0">
-                      <a class="nav-link" aria-current="page" href="#">Home</a>
+              <div
+                class="transparent-bg w-50 ms-auto d-none d-lg-flex justify-content-end position-absolute">
+                <img
+                  src="pictures/headerpicture/grid.png.webp"
+                  alt=""
+                  class="img-fluid" />
+              </div>
+            </div>
+            <!-- header slider txt and social icon -->
+            <div class="heading-slider-1 position-absolute z-2 px-3 py-2 w-100">
+              <div
+                class="heading-slider d-flex justify-content-md-center align-items-md-center mx-auto">
+                <div class="head-slider-content text-center mx-auto">
+                  <h3>Hello This is Milan</h3>
+                  <span class="position-relative">Creative Designer</span>
+                </div>
+                <div class="sociallinks d-none d-md-block mx-5">
+                  <ul class="socialicons list-unstyled">
+                    <li class="mb-4 rounded-circle text-center">
+                      <a href=""><i class="bi bi-facebook"></i></a>
                     </li>
-                    <li class="nav-item my-1 my-lg-0 ps-2 py-0">
-                      <a class="nav-link" href="#">About</a>
+                    <li class="my-4 rounded-circle text-center">
+                      <a href=""><i class="bi bi-twitter-x"></i></a>
                     </li>
-                    <li class="nav-item my-1 my-lg-0 ps-2 py-0">
-                      <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <li class="nav-item dropdown my-1 my-lg-0 ps-2 py-0">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        blog 
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">blog</a></li>
-                        <li><a class="dropdown-item" href="#">single-blog</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item dropdown my-1 my-lg-0 ps-2 py-0">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        pages 
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Portfolio</a></li>
-                        <li><a class="dropdown-item" href="#">Elements</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item my-1 my-lg-0 ps-2 py-0">
-                      <a class="nav-link" href="#">Contact</a>
+                    <li class="mt-4 rounded-circle text-center">
+                      <a href=""><i class="bi bi-instagram"></i></a>
                     </li>
                   </ul>
-                  <form class="d-none d-lg-flex search-nav-btn px-1 py-1" role="search">
-                    <button type="button" class="btn">Contact Me</button>
-                  </form>
                 </div>
               </div>
-            </nav>
-          </div>
-          <!-- header person img -->
-          <div class="head-man-img w-100 h-100 position-relative z-0">
-              <div class="head-person-img position-absolute">
-                <img src="pictures/headerpicture/man.png.webp" class="img-fluid" alt="">
-              </div>
-              <div class="transparent-bg w-50 mx-auto bg-danger d-flex justify-content-end d-none d-lg-block">
-                <img src="pictures/headerpicture/grid.png.webp" alt="" class="img-fluid">
-              </div>
-          </div> 
-          <!-- header slider txt and social icon -->
-          <div class=" heading-slider-1 position-absolute z-2 px-3 py-2 w-100 ">
-           <div class="heading-slider  d-flex justify-content-md-center align-items-md-center mx-auto">
-            <div class="head-slider-content text-center mx-auto ">
-              <h3>Hello This is Milan</h3>
-              <span class="position-relative">Creative Designer</span>
             </div>
-            <div class="sociallinks  d-none d-md-block mx-5">
-              <ul class="socialicons list-unstyled ">
-                <li class="mb-4  rounded-circle text-center"><a href=""><i class="bi bi-facebook"></i></a></li>
-                <li class="my-4  rounded-circle text-center"><a href=""><i class="bi bi-twitter-x"></i></a></li>
-                <li class="mt-4  rounded-circle text-center"><a href=""><i class="bi bi-instagram"></i></a></li>
-              </ul>
-            </div>
-           </div>
-          </div>
-        </header>
+          </header>
+        </div>
+      </div>
+      <!-- row 2 >> Service Provided section -->
+      <div class="row">
+        <div class="col-12">
+          <span class="d-block w-100 text-center provided-title position-relative">Service Provided</span>
+        </div>
+        <div class="col-12"></div>
+        <div class="col-12"></div>
+        <div class="col-12"></div>
       </div>
     </div>
-
-    <!-- row 2 >> Service Provided section -->
-
-  </div>
-
-</body>
+  </body>
 </html>
