@@ -43,3 +43,8 @@ header > .heading-slider-1 .heading-slider span::after {
   background: #ccc;
   border: none;
 }
+/* =====================row 2 ===================== */
+/* style for provided title */
+.services-provider h3{
+  font-size: 22px;
+}

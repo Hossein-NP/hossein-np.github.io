@@ -123,6 +123,42 @@ header > .heading-slider-1 .heading-slider .sociallinks .socialicons li a i {
   display: block;
   position: absolute;
   transform: rotate(90deg);
-  left: 108px;
-  top: -46px;
+  left: 75px;
+  top: -60px;
+}
+.provided-section{
+  padding-top: 160px;
+}
+.provided-section h3{
+  font-family: 'muliregular';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 40px;
+}
+/* style for services provider */
+.services-provider{
+  transition: 0.3s;
+  border: 1px solid #e8e8e8;
+}
+.services-provider:hover{
+  border-color: #615cfd;
+  transition: 0.3s;
+}
+.services-provider h3{
+  font-family: "muliregular";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 24px;
+  color:rgb(33, 37, 41);
+  padding-bottom: 12px;
+}
+.services-provider p{
+  font-family: "muliregular";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color:rgb(144, 144, 144);
+  text-align: justify;
+  line-height: 30px;
 }
