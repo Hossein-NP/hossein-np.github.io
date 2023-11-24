@@ -17,6 +17,12 @@ header > .header-nav-parent .web-nav {
   font-size: 18px;
   color: #ffffff;
 }
+.contact-btn{
+  margin-right: 180px;
+}
+.nav-brand-2{
+  margin-left: 200px;
+}
 /* style for dropmenu navbar */
 .navbar-nav > li .dropdown-menu {
   background: #ffffff;

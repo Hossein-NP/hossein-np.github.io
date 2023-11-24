@@ -31,14 +31,14 @@ header > .header-nav-parent .web-nav > .container-fluid > button span {
 }
 /* for navbar items */
 .navbar-nav > li a,
-.search-nav-btn {
+.contact-btn {
   font-family: "muliregular";
   font-weight: 400;
   font-style: normal;
   font-size: 14px;
   color: #ffffff;
 }
-.search-nav-btn {
+.contact-btn {
   background-color: #d465ef;
 }
 /* header man picture */
