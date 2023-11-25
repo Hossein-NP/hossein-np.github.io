@@ -244,6 +244,11 @@ header > .heading-slider-1 .heading-slider .sociallinks .socialicons li a i {
 }
 /* =====================row 5 ===================== */
 /* about me section */
+.about-section{
+  padding-top: 75px;
+   padding-bottom: 150px;
+
+}
 .about-me-txt h3{
   color: #001d38;
   font-weight: 700;
@@ -277,4 +282,65 @@ header > .heading-slider-1 .heading-slider .sociallinks .socialicons li a i {
   color: #615cfd;
   background-color: #fff;
   transition: 0.3s;
+}
+/* =====================row 6 ===================== */
+.conter-section{
+  padding-bottom: 120px;
+  padding-top: 50px;
+}
+.single-counter{
+  padding-top: 50px;
+  padding-bottom: 43px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+  border: 1px solid #e8e8e8;
+}
+.single-counter:hover{
+  border-color: #615cfd ;
+  transition: 0.3s;
+}
+.single-counter span{
+  font-size: 35px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'muliregular';
+  color: #615cfd;
+}
+.single-counter p{
+  font-size: 15px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'muliregular';
+}
+/* =====================row 7 ===================== */
+.carousel-section{
+  margin-top: 100px;
+  padding: 100px 0;
+  background-image: url(../pictures/carousel/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel-singl p {
+ margin: 34px 0;
+ font-size: 24px;
+ line-height: 40px ;
+ color: #fff;
+ font-weight: 400;
+  font-style: normal;
+  font-family: 'muliregular';
+}
+.author-section span{
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'muliregular';
+  color: #fff;
+}
+.carousel-singl .author-section h3{
+  font-size: 17px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: 'muliregular';
+  color: #fff;
 }

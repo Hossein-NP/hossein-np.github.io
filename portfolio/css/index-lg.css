@@ -91,3 +91,7 @@ header > .heading-slider-1 .heading-slider span::after {
   left: 198px;
   top: -37px;
 }
+/* =====================row 6 ===================== */
+.single-counter span{
+  font-size: 80px;
+}
