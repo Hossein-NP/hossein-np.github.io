@@ -53,3 +53,9 @@ header > .heading-slider-1 .heading-slider span::after {
 .portfolio-area-title h3{
   font-size: 36px;
 }
+/* =====================row 5 ===================== */
+/* about me section */
+.about-section{
+  padding-top: 150px;
+  padding-bottom: 70px;
+}

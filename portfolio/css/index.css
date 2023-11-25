@@ -242,3 +242,39 @@ header > .heading-slider-1 .heading-slider .sociallinks .socialicons li a i {
   color: #fff;
   transition: 0.5s;
 }
+/* =====================row 5 ===================== */
+/* about me section */
+.about-me-txt h3{
+  color: #001d38;
+  font-weight: 700;
+  font-family: 'mulibold';
+  font-size: 50px;
+  line-height: 60px;
+}
+.about-me-txt p{
+  color:rgb(144, 144, 144);
+  font-size: 17px;
+  line-height: 28px;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 36px;
+}
+.about-me-txt .cv-parent a{
+  display: block;
+  width: 200px;
+  height: 70px;
+  color: #fff;
+  border: 1px solid #615cfd;
+  background-color: #615cfd;
+  font-size: 19px;
+  font-family: 'mulilight';
+  font-weight: 400;
+  line-height: 70px;
+  transition: 0.3s;
+}
+.about-me-txt .cv-parent a:hover{
+  color: #615cfd;
+  background-color: #fff;
+  transition: 0.3s;
+}

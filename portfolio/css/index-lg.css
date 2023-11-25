@@ -85,3 +85,9 @@ header > .heading-slider-1 .heading-slider span::after {
   font-size: 50px;
   line-height: 62px;
 }
+/* =====================row 5 ===================== */
+
+.designer-pic .grid-bg {
+  left: 198px;
+  top: -37px;
+}
