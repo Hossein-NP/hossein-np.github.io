@@ -88,3 +88,9 @@ header > .heading-slider-1 .heading-slider span::after {
 .single-counter span{
   font-size: 80px;
 }
+.single-counter p{
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: 'muliregular';
+}
