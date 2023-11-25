@@ -14,7 +14,7 @@ header > .header-nav-parent .web-nav {
   font-family: "muliregular";
   font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 17px;
   color: #ffffff;
 }
 /* style for dropmenu navbar */
@@ -78,4 +78,10 @@ header > .heading-slider-1 .heading-slider span::after {
 }
 .services-provider h3{
   font-size: 24px;
+}
+/* =====================row 3 ===================== */
+/* row 3 >> portfiolio area */
+.portfolio-area-title h3{
+  font-size: 50px;
+  line-height: 62px;
 }
