@@ -1,3 +1,7 @@
+::selection{
+  background-color: #5f5f5f;
+  color: #ffffff;
+}
 /* main style */
 /* =====================row 1 ===================== */
 /* header section */
@@ -170,7 +174,7 @@ header > .heading-slider-1 .heading-slider .sociallinks .socialicons li a i {
   padding-bottom: 340px;
 }
 .portfolio-area-title span{
-  font-size: 13px;
+  font-size: 17px;
   font-weight: 300;
   font-family: 'muliextralight';
   color: #fff;
@@ -343,4 +347,83 @@ header > .heading-slider-1 .heading-slider .sociallinks .socialicons li a i {
   font-style: normal;
   font-family: 'muliregular';
   color: #fff;
+}
+/* =====================row 8 ===================== */
+.discuss-section{
+  padding: 50px 0;
+  background-color: #001d38;
+}
+.discuss-parent h3{
+  font-size: 30px;
+  font-family: "mulibold";
+  font-weight: 600;
+  font-style: normal;
+  color: #ffffff;
+}
+.discuss-parent p{
+  font-size: 17px;
+  font-family: 'muliregular';
+  font-weight: 300;
+  font-style: normal;
+  color: #ffffff;
+  margin-top: 12px;
+  margin-bottom: 30px;
+}
+.discuss-parent .discuss-btn a{
+  padding: 14px 38px;
+  color: #fff;
+  background-color: #615cfd;
+  font-size: 15px;
+  font-family: 'mulilight';
+  font-weight: 300;
+  border: 1px solid #615cfd;
+  transition: 0.3s;
+
+}
+.discuss-parent .discuss-btn a:hover{
+  color: #615cfd;
+  background-color: transparent;
+  transition: 0.3s;
+}
+/* =====================row 9 ===================== */
+.footer-list ul li a{
+  font-size: 15px;
+  font-family: 'muliregular';
+  font-weight: 500;
+  font-style: normal;
+  transition: 0.3s;
+  color: #fff;
+}
+.footer-list ul li a:hover{
+  color: #615cfd;
+  transition: 0.3s;
+}
+.footer-icons-social .icons-list li{
+  border: 1px solid #334a60;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+
+}
+.footer-icons-social .icons-list li:hover{
+  background-color: #615cfd;
+  transition: 0.3s;
+}
+.footer-icons-social .icons-list li a{
+  color: #fff;
+  font-size: 15px;
+}
+/* footer copyright section */
+.footer-copyright-section{
+  padding-bottom: 30px;
+  background: #001D38;
+}
+.footer-border{
+  border: 1px solid #334a60;
+  margin-bottom: 30px;
+}
+.copy-right{
+  font-size: 15px;
+  color: #fff;
+
 }
