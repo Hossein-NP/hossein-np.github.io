@@ -587,15 +587,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-DanaDemiBold {
-  font-family: Dana DemiBold;
-}
-
 .font-Dana {
   font-family: Dana;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
