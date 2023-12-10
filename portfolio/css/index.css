@@ -121,7 +121,7 @@ header > .heading-slider-1 .heading-slider .sociallinks .socialicons li a i {
 }
 .provided-title::before{
   content: "";
-  height: 1px;
+  height: 2px;
   width: 80px;
   background-color: #615cfd;
   display: block;
